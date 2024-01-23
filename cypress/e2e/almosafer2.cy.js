@@ -3,7 +3,8 @@
 cy.on("uncaught:exception", (e) =>{
 return false;
 });
-describe('template spec', () => {
+
+describe('test', () => {
   it('passes', () => {
     
     cy.visit('https://global.almosafer.com/en?gad_source=1&gclid=CjwKCAiAyp-sBhBSEiwAWWzTnop4k7SH0sDrITOYbo9LRYigvgK5gN_rAmjFMxfu1gX2lEuGMXzIKBoCdY8QAvD_BwE')
